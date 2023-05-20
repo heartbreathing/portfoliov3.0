@@ -41,7 +41,7 @@ export default function Web2 (props) {
         <section >
           <nav className="flex items-center justify-between py-10 mb-12">
             <Image src="/logo.png" alt="Logo" width={100} height={100} />
-            <a className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</a>
+            <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</Link>
           </nav>
         </section>
         <section className="flex flex-col items-center justify-center my-10 max-w-5xl mx-auto">

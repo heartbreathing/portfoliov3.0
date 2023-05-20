@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
-import { DiReact } from 'react-icons/di';
-import { SiTailwindcss, SiNodedotjs, SiPostgresql, SiExpress, SiSequelize } from 'react-icons/si';
+import { DiReact } from "react-icons/di";
+import { SiTailwindcss, SiNodedotjs, SiPostgresql, SiExpress, SiSequelize } from "react-icons/si";
 
-import { useState, useEffect } from 'react';
-import portfolioCardData from '../../data/portfolioCardData';
-import Footer from '../components/footer';
+import { useState, useEffect } from "react";
+import portfolioCardData from "../../data/portfolioCardData";
+import Footer from "../components/footer";
 
 
 export default function Web3 (props) {
@@ -41,7 +41,7 @@ export default function Web3 (props) {
         <section >
           <nav className="flex items-center justify-between py-10 mb-12">
             <Image src="/logo.png" alt="Logo" width={100} height={100} />
-            <a className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</a>
+            <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: "40px", width: "80px" }}>Home</Link>
           </nav>
         </section>
         <section className="flex flex-col items-center justify-center my-10 max-w-5xl mx-auto">
