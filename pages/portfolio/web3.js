@@ -6,7 +6,7 @@ import { DiReact } from "react-icons/di";
 import { SiTailwindcss, SiNodedotjs, SiPostgresql, SiExpress, SiSequelize } from "react-icons/si";
 
 import { useState, useEffect } from "react";
-import portfolioCardData from "../../data/portfolioCardData";
+import portfolioCardData from "../../data/PortfolioCardData";
 import Footer from "../components/Footer";
 
 

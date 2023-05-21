@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 import { motion } from "framer-motion";
 
-import portfolioCardData from "../data/portfolioCardData";
+import portfolioCardData from "../data/PortfolioCardData";
 import PortfolioSection from "./components/PortfolioSection";
 
 
