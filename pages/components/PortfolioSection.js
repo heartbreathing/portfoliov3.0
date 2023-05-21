@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioCardData from '../../data/portfolioCardData';
+import portfolioCardData from '../../data/PortfolioCardData';
 import PortfolioECard from './PortfolioCard';
 
 
