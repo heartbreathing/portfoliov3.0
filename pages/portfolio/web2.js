@@ -6,7 +6,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { SiBootstrap, SiFigma } from 'react-icons/si';  
 
 import { useState, useEffect } from 'react';
-import portfolioCardData from '../../data/PortfolioCardData';
+import portfolioCardData from '../../data/portfolioCardData';
 import Footer from '../components/Footer';
 
 
