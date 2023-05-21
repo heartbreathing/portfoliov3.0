@@ -7,7 +7,7 @@ import { SiBootstrap, SiFigma } from 'react-icons/si';
 
 import { useState, useEffect } from 'react';
 import portfolioCardData from '../../data/portfolioCardData';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 
 export default function Web2 (props) {
