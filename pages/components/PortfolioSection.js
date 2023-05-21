@@ -1,13 +1,16 @@
 import React from 'react';
 
-import PortfolioECard from './PortfolioCard';
+import PortfolioCard from './PortfolioCard';
 
 
 export default function PortfolioSection ({ projects }) {
+  if (!projects || !Array.isArray(projects)) {
+    return null; 
+  }
 
   return (
     <>
-      {projects.map((project) => (<PortfolioECard key={project.id} {...project} />
+      {projects.map((project) => (<PortfolioCard key={project.id} {...project} />
       ))}
     </>
 
