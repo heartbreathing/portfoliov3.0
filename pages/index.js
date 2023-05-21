@@ -6,7 +6,7 @@ import { SiTailwindcss, SiBootstrap, SiNodedotjs, SiPostgresql, SiFigma } from "
 
 import deved from "../public/dev-ed-wave.png";
 import { useState } from "react";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 import { motion } from "framer-motion";
 
