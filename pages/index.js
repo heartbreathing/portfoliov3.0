@@ -16,7 +16,7 @@ import PortfolioSection from "./components/PortfolioSection";
 
 export default function Home (props) {
   const [darkMode, setDarkMode] = useState(false);
-  const {projects}=props
+
 
 
   return (

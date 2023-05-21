@@ -40,7 +40,7 @@ export default function Web3 (props) {
       <main className=" bg-white px-10 md:px-20 lg:px-40">
         <section >
           <nav className="flex items-center justify-between py-10 mb-12">
-            <Image src="/logo.png" alt="Logo" width={100} height={100} />
+            <Image src="/logo3.png" alt="Logo" width={100} height={100} />
             <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: "40px", width: "80px" }}>Home</Link>
           </nav>
         </section>
