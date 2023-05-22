@@ -28,7 +28,7 @@ const portfolioCardData = [
     id: 3,
     title: 'A FULLSTACK TODO APP',
     video: '/web3-video.mp4',
-    description: 'A react todo project with express & postgreSQl',
+    description: 'With express & postgreSQl',
     description_detail: " This is a simple Todo list application with a React front-end and a Node.js back-end. The front-end is built with React and Bootstrap. The back-end uses the Express web framework, and the PostgreSQL database is managed by the Sequelize ORM. The code has been pushed to the github repository for version control.The application utilizes REST API logic to handle HTTP requests between the frontend and backend. The frontend sends HTTP requests to the server, which responds with JSON data. The server then updates the database and sends back a response to the frontend. ",
     image: "/web3.png",
     link: '/portfolio/web3',

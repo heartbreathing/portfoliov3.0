@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 import { DiHtml5, DiJavascript1 } from 'react-icons/di';
 
@@ -40,7 +41,13 @@ export default function Web1 (props) {
             <main className=" bg-white px-10 md:px-20 lg:px-40">
                 <section >
                     <nav className="flex items-center justify-between py-10 mb-12">
-                        <Image src="/logo3.png" alt="Logo" width={100} height={100} />
+                        <motion.div
+                            initial={{ rotate: 0 }}
+                            animate={{ rotate: 360 }}
+                            transition={{ duration: 10, repeat: Infinity }}
+                        >
+                            <Image src="/logo3.png" alt="logo" width={100} height={100} objectFit="cover" />
+                        </motion.div>
                         <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</Link>
                     </nav>
                 </section>

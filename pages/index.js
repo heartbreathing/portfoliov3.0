@@ -47,9 +47,8 @@ export default function Home (props) {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer dark:text-gray-200" />
               </li>
-              <li>
-                {/* <a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-md" href="#">Resume</a> */}
-                <a className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-3 py-2 rounded-md" href="#">Resume</a>
+              <li>               
+                <a className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-3 py-2 rounded-md" href="/liwang-resume.pdf" download>Resume</a>
               </li>
             </ul>
           </nav>
