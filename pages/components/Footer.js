@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex items-center justify-center gap-5 py-1 text-purple-800 md:text-2xl dark:text-gray-200">
             <AiOutlineMail />
             <p className="py-1 text-gray-800 md:text-xl dark:text-gray-200">
-              heartbreathing81@gmail.com
+              li-wang-sw@gmail.com
             </p>
 
           </div>
