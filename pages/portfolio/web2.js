@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from "framer-motion";
+import useSound from "use-sound";
+import bounceSound2 from "../../public/bounceSound2.mp3";
 
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiBootstrap, SiFigma } from 'react-icons/si';  
@@ -15,6 +17,7 @@ export default function Web2 (props) {
   const { id } = props;
 
   const [project, setProject] = useState(null);
+  const [playBounceSound2] = useSound(bounceSound2);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,7 +31,7 @@ export default function Web2 (props) {
 
   if (!project) return "null";
   const { title, video, image, description_detail, code, live } = project;
-  console.log("Web1 is working");
+  console.log("Web2 is working");
 
   return (
     <div>
@@ -48,7 +51,14 @@ export default function Web2 (props) {
             >
               <Image src="/logo3.png" alt="logo" width={100} height={100} objectFit="cover" />
             </motion.div>
-            <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</Link>
+            <motion.div
+              whileHover={{ y: -10 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={playBounceSound2}
+            >
+              <Link className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-4 py-2 rounded-md" href="/" style={{ height: '40px', width: '80px' }}>Home</Link>
+
+            </motion.div>
           </nav>
         </section>
         <section className="flex flex-col items-center justify-center my-10 max-w-5xl mx-auto">
@@ -65,8 +75,24 @@ export default function Web2 (props) {
           </div>
 
           <div className="flex items-center justify-center gap-10 mb-20">
-            <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={code}>View Code</Link></button>
-            <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={live}>Live version</Link></button>
+            <motion.div
+              whileHover={{ y: -10 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={playBounceSound2}
+            >
+              <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={code} target="_blank">View Code</Link></button>
+
+            </motion.div>                        <motion.div
+              whileHover={{ y: -10 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={playBounceSound2}
+            >
+              <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={live} target="_blank">Live version</Link></button>
+
+            </motion.div>
+            
+           
+            
           </div>
 
 

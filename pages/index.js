@@ -8,7 +8,10 @@ import deved from "../public/dev-ed-wave.png";
 import { useState } from "react";
 import Footer from "./components/Footer";
 
+
 import { motion } from "framer-motion";
+import useSound from "use-sound";
+import bounceSound from "../public/bounceSound.mp3";
 
 import portfolioCardData from "../data/portfolioCardData";
 import PortfolioSection from "./components/PortfolioSection";
@@ -16,7 +19,7 @@ import PortfolioSection from "./components/PortfolioSection";
 
 export default function Home (props) {
   const [darkMode, setDarkMode] = useState(false);
-
+  const [playBounceSound] = useSound(bounceSound);
 
 
   return (
@@ -47,9 +50,19 @@ export default function Home (props) {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer dark:text-gray-200" />
               </li>
-              <li>               
-                <a className=" bg-gradient-to-r from-orange-600 to-purple-800  text-white px-3 py-2 rounded-md" href="/liwang-resume.pdf" download>Resume</a>
-              </li>
+              <motion.div
+                whileHover={{ y: -10 }}
+                whileTap={{ scale: 0.9 }}
+                onClick={playBounceSound}
+              >
+                <a
+                  className="bg-gradient-to-r from-orange-600 to-purple-800 text-white px-3 py-2 rounded-md"
+                  href="/liwang-resume.pdf"
+                  download
+                >
+                  Resume
+                </a>
+              </motion.div>
             </ul>
           </nav>
 
