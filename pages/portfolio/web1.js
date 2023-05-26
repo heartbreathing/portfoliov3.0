@@ -69,7 +69,7 @@ export default function Web1 (props) {
                         <h2 className="text-2xl mb-10 md:text-3xl">{title}</h2>
                         <Image src={image} width={800} height={500} alt={title} className="rounded-lg mb-8" />
                                            
-                    <p className="text-medium py-5 leading-8   text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-200">{description_detail}</p>
+                    <p className="text-medium py-5 mb-10 leading-8   text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-200">{description_detail}</p>
 
                     <div className="text-4xl flex justify-center gap-10 pb-10 text-purple-700 md:text-5xl dark:text-gray-200">
                         <DiHtml5 />
