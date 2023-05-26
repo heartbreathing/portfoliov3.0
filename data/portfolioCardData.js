@@ -18,7 +18,7 @@ const portfolioCardData = [
     title: 'FAIR & SQUARE',
     video: '/web2-video.mp4',
     description: 'A query website',
-    description_detail: " This is a third-party survey website. Users enter the webpage through the link and answer the questions that have been set. The project execution adopts the sprint development mode, and the code version is controlled through GitHub. Use Figma for page and workflow design. The web page uses the next.js framework and bootstrap to edit the style, and the internal page routing uses react-router-dom.",
+    description_detail: " This is a third-party survey website.  The project execution adopts the agile sprint development mode, and the code version is controlled through GitHub. Use Figma for page and workflow design. The web page uses the next.js framework and bootstrap to edit the style, and the internal page routing uses react-router-dom.",
     image: "/web2.png",
     link: '/portfolio/web2',
     code: 'https://github.com/fair-square-fed/employee',
