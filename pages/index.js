@@ -104,7 +104,7 @@ export default function Home (props) {
               I have been working with <span className="text-purple-800">Html, Css, Javascript, React, Next.js, TailwindCSS, Bootstrap </span>and more.I have also been working with <span className="text-purple-800">Node.js, Express, Postgres SQL</span> and <span className="text-purple-800">Figma</span>.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 md:text-lg dark:text-gray-200">
-              I also have experience in <span className="text-purple-800">agile development, code testing,</span> and<span className="text-purple-800">CI/CD </span> practices.
+              I also have experience in <span className="text-purple-800">agile development, code testing,</span> and<span className="text-purple-800"> CI/CD </span> practices.
 
             </p>
             
