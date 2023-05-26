@@ -85,14 +85,15 @@ export default function Web3 (props) {
             >
               <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={code} target="_blank">View Code</Link></button>
 
-            </motion.div>                        <motion.div
+            </motion.div>
+            {/* <motion.div
               whileHover={{ y: -10 }}
               whileTap={{ scale: 0.9 }}
               onClick={playBounceSound2}
             >
               <button className="bg-purple-500 text-white px-4 py-2 rounded-md mt-4"><Link href={live} target="_blank">Live version</Link></button>
 
-            </motion.div>
+            </motion.div> */}
             
             
             
