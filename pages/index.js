@@ -73,8 +73,12 @@ export default function Home (props) {
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-purple-800 font-medium md:text-6xl">Hi there...</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Frontend Development Student in Hyperisland</h3>
-            <p className="text-medium py-5 leading-8   text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
-              I am Li Wang. I have been worked in the field of environmental assessment for many years. But now I am passionate about building beautiful and functional web applications. I am looking for a internships in the <span className="text-purple-800">Frontend Development</span> / <span className="text-purple-800">Fullstack Development</span> areas to help me improve my skills in the real world.
+            <p className="text-medium py-3 leading-8   text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
+              I am Li Wang. I have been worked in the field of environmental assessment for many years. But now I am passionate about building beautiful and functional web applications. 
+            </p>
+            <p className="text-medium py-3 leading-8   text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">
+              I am looking for a internships in the <span className="text-purple-800">Frontend Development</span> / <span className="text-purple-800">Fullstack Development</span> areas to help me improve my skills in the real world.
+
             </p>
         
           </div>
@@ -99,10 +103,12 @@ export default function Home (props) {
               Since the beginning of my journey as a frontend student in Hyperisland, I have been working with different technologies and frameworks.
               I have been working with <span className="text-purple-800">Html, Css, Javascript, React, Next.js, TailwindCSS, Bootstrap </span>and more.I have also been working with <span className="text-purple-800">Node.js, Express, Postgres SQL</span> and <span className="text-purple-800">Figma</span>.
             </p>
-
             <p className="text-md py-2 leading-8 text-gray-800 md:text-lg dark:text-gray-200">
-              I am looking for internships in the <span className="text-purple-800">Frontend Development</span> & <span className="text-purple-800">Fullstack Development</span> areas.
+              I also have experience in <span className="text-purple-800">agile development, code testing,</span> and<span className="text-purple-800">CI/CD </span> practices.
+
             </p>
+            
+            
           </div>
 
           <div className="text-4xl flex justify-center gap-10 pb-10 text-purple-700 md:text-5xl dark:text-gray-200">
